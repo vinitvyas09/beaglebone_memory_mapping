@@ -6,4 +6,4 @@ gpio.h        : A header file containing all the necessary MACROS used & functio
 gpio.c 	      : This is the most important file that contains the function where mmap() is implemented.
 Makefile      : A sample Makefile
 patch-tree.sh : This shell script enables the Device Tree overlay (can be used if required)
-testStepper.c : A sample code where we test the mmap() by controlling a stepper motor connected at the PORTS specified in the code
+testStepper.c : A sample code where we test the mmap() by controlling a stepper motor connected at the PINS specified in the code
